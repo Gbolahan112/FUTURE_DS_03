@@ -58,6 +58,8 @@ This accessibility is a critical component of effective teaching and should be m
 "Explains concepts in an understandable way" scored [4.3/5.0], demonstrating that the instructor generally communicates complex ideas effectively.
 This skill correlates strongly with overall student satisfaction.
 
+* 
+
 
 
 

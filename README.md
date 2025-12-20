@@ -33,8 +33,18 @@ We operate in the higher education sector, where our primary "product" is qualit
 
 # Analysis And Insights
 
+The objective of this analysis was to evaluate student sentiment across eight key performance indicators (KPIs) following campus events and course modules. 
+Using Python (Pandas), I processed 1,001 individual feedback entries. The analysis involved:
+
+* Data Cleaning: Removing redundant identifiers and handling the 1–10 rating scales.
+* Descriptive Statistics: Calculating mean scores for each category to identify institutional strengths and weaknesses.
+* Sentiment Segmentation: Engineering an Overall Satisfaction Score and categorizing students into "High," "Medium," and "Low" satisfaction brackets based on their aggregate feedback.
+* Correlation Analysis: Investigating how individual factors, such as "Instructor Knowledge" or "Course Structure," influence the student's likelihood to recommend the program.
+
+
 * Overall Satisfaction Analysis
-The student feedback data reveals valuable insights into teaching effectiveness across multiple dimensions. With an overall average rating of [4.2/5.0], 
+Core Strength in Expertise: The highest-rated metric was "Well versed with the subject" ($7.50/10$). This indicates that students have high confidence in the technical proficiency and expertise of the instructors.
+The student feedback data reveals valuable insights into teaching effectiveness across multiple dimensions. With an overall average rating of [4.8/6.0], 
 the general satisfaction level is positive, though there are clear opportunities for enhancement in specific areas.
 The distribution of overall student satisfaction shows a slight positive skew, with 75% of students rating above [3.8]. 
 This indicates that while most students are satisfied, there remains a segment with less positive experiences that warrant attention.
@@ -54,14 +64,9 @@ This accessibility is a critical component of effective teaching and should be m
 
 <img width="1250" height="711" alt="Screenshot 2025-12-19 022849" src="https://github.com/user-attachments/assets/32623168-ed80-4d68-8fed-8ccd9b6bf693" />
 
-*  Clear Communication
-"Explains concepts in an understandable way" scored [4.3/5.0], demonstrating that the instructor generally communicates complex ideas effectively.
-This skill correlates strongly with overall student satisfaction.
+* Support & Doubt Resolution: Metrics for "Solves doubts willingly" ($5.47$) and "Structuring of the course" ($5.64$) are below the $6.0$ threshold. This implies that while instructors know their subject, students may feel the path to getting help is not streamlined or approachable.
 
-Overall Satisfaction Assessment
-- Identify the general satisfaction level across all metrics
-- Determine if ratings follow a normal distribution or are skewed
-- Identify any bimodal patterns suggesting polarized opinions
+* The Practical Friction Point: The lowest-rated area was the "Degree of difficulty of assignments" ($5.43/10$). This suggests a significant disconnect between the lecture delivery and the complexity of the tasks students are expected to perform independently.
 
 # Recommendation
 
@@ -76,7 +81,7 @@ Overall Satisfaction Assessment
 
 # Conclusion
 
-The analysis of the student feedback data confirms that Tech Studio Academy possesses a strong foundational asset: highly knowledgeable instructors. However, the low conversion of this knowledge into "High" student satisfaction is due to friction in the practical learning experience specifically assignment difficulty and the doubt-clearing process.By focusing on instructional design (better assignments) and improving the responsiveness of student support, the academy can raise its Course Recommendation score ($5.60/10$) and shift the majority of its student base from "Satisfied" to "Highly Satisfied." This data-driven approach ensures that the academy remains competitive by focusing resources where they have the most direct impact on the student experience.
+The analysis of the student feedback data confirms that Academy Interns possesses a strong foundational asset: highly knowledgeable instructors. However, the low conversion of this knowledge into "High" student satisfaction is due to friction in the practical learning experience specifically assignment difficulty and the doubt-clearing process.By focusing on instructional design (better assignments) and improving the responsiveness of student support, the academy can raise its Course Recommendation score ($5.60/10$) and shift the majority of its student base from "Satisfied" to "Highly Satisfied." This data-driven approach ensures that the academy remains competitive by focusing resources where they have the most direct impact on the student experience.
 
 
 
